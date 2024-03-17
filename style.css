@@ -17,10 +17,48 @@
 }
 
 * {
+    max-width: 100%;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     list-style: none;
     text-decoration: none;
     font-size: 1rem;
+}
+
+/*
+    Font:
+
+    Outfit:
+        font-family: "Outfit", sans-serif;
+        font-weight: <weight>; (400, 600, 700)
+
+    Young Serif:
+        font-family: "Young Serif", serif;
+        font-weight: 400;
+*/
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: var(--egshell);
+}
+
+main {
+    background-color: var(--white);
+    border-radius: 20px;
+    width: 60rem;
+}
+
+header img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+    height: 25rem;
+    border-radius: 20px;
+    margin: 2rem;
 }
