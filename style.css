@@ -21,7 +21,6 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    list-style: none;
     text-decoration: none;
     font-size: 1rem;
 }
@@ -53,6 +52,7 @@ main {
     width: 60rem;
 }
 
+
 header img {
     display: block;
     margin-left: auto;
@@ -60,5 +60,51 @@ header img {
     align-items: center;
     height: 25rem;
     border-radius: 20px;
-    margin: 2rem;
+    margin: 42.672px;
+}
+
+header h1 {
+    font-family: "Young Serif", serif;
+    font-weight: 400;
+    font-size: 3.5rem;
+    margin-left: 42.672px;
+}
+
+header p {
+    font-family: "Outfit", sans-serif;
+    font-weight: 400;
+    color: var(--wenge-brown);
+    margin-left: 42.672px;
+}
+
+
+
+.prep-time h3 {
+    font-family: "Outfit", sans-serif;
+    font-weight: 700;
+    color: var(--dark-raspberry);
+}
+
+.prep-time span {
+    font-family: "Outfit", sans-serif;
+    font-weight: 400;
+}
+
+.prep-time li::marker {
+    color: var(--dark-raspberry);
+
+}
+
+.prep-time {
+    margin-left: 60px;
+    padding-top: 4rem;
+}
+
+#bold {
+    font-weight: 600;
+}
+
+.prep-time li {
+    margin-left: 30px;
+
 }
