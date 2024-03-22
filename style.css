@@ -47,6 +47,7 @@ body {
 }
 
 main {
+    margin: 5rem;
     background-color: var(--white);
     border-radius: 20px;
     width: 60rem;
@@ -205,8 +206,17 @@ hr {
 */
 
 .nutrition {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
     margin-left: 42.672px;
 
+}
+
+.description {
+    color: var(--wenge-brown);
+    font-family: "Outfit", sans-serif;
+    font-weight: 400;
+    padding: 1.5rem 0 1.5rem 0;
 }
 
 .minor-heading {
@@ -247,4 +257,35 @@ hr {
 
 hr {
     margin: 0 30px 0 30px;
+}
+
+@media only screen and (max-width: 866px) {
+    main {
+        margin: 0;
+        background-color: var(--white);
+        border-radius: 0;
+        width: 60rem;
+    }
+
+    header img {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        align-items: center;
+        height: 25rem;
+        border-radius: 0;
+        margin: 0;
+        height: auto;
+        width: auto;
+    }
+
+    header h1 {
+        padding: 1rem 0 1rem 0;
+        color: black;
+        font-family: "Young Serif", serif;
+        font-weight: 400;
+        font-size: 2.5rem;
+        margin-left: 42.672px;
+    }
+    
 }
